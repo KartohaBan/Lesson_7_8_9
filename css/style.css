@@ -50,6 +50,10 @@ body {
   color: #424551;
 }
 
+.page {
+  margin-bottom: 48px;
+}
+
 [class*="__conteiner"] {
   max-width: 1230px;
   margin: 0 auto;
@@ -85,7 +89,7 @@ body {
   margin-bottom: 48px;
 }
 
-.page__text p:first-child {
+.page__text p:not(:last-child) {
   margin-bottom: 22px;
 }
 
@@ -215,15 +219,15 @@ body {
   cursor: pointer;
 }
 
-.repeated__text li:nth-child(1) {
+.repeated__text-one {
   background: url('../img/stroke.svg') 0 6px no-repeat;
 }
 
-.repeated__text li:nth-child(2) {
+.repeated__text-two {
   background: url('../img/Vector.svg') 0 6px no-repeat;
 }
 
-.repeated__text li:nth-child(3) {
+.repeated__text-three {
   background: url('../img/Vectorpipl.svg') 0 6px no-repeat;
 }
 
@@ -248,9 +252,6 @@ body {
   color: #424551;
 }
 
-.repeated__text {
-  margin-bottom: 48px;
-}
 
 /* ============================================================ */
 .footer__bottom {
