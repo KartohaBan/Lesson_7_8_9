@@ -96,8 +96,8 @@ body {
   color: #1e212c;
   margin-bottom: 48px;
 
-  background: url('../img/braces.jpg') 0 0 no-repeat;
-  padding-left: 50px;
+  background: url('../img/braces.jpg') 1px 1px no-repeat;
+  padding: 0px 0px 0px 58px;
 }
 
 .page__text li {
@@ -260,7 +260,7 @@ body {
 }
 
 .bottom__link a {
-
+  display: inline-block;
   font-weight: 900;
   font-size: 35px;
   border: 5px solid rgb(218, 245, 13);
